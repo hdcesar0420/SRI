@@ -1,72 +1,60 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+### [Styde](https://styde.net/)
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+Styde es una nueva comunidad de desarrollo web en español. Con nosotros podrás aprender Laravel, PHP y otras tecnologías, 
+desde tutoriales básicos gratuitos hasta cursos avanzados a bajo costo, de la mano de profesionales con años de experiencia.
 
-## About Laravel
+# Curso de Laravel 5.5 desde cero
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Bienvenido a la tercera edición del Curso Básico de Laravel en Styde, esta vez explicaremos la versión 5.5 LTS del Framework desde cero y de manera gratuita. Así que si quieres aprender o recomendar el framework Laravel, esta es la URL correcta. Este curso se encuentra en desarrollo, publicaremos nuevas lecciones constantemente hasta terminarlo. Si estás buscando la versión anterior de este curso (que ya está completa), puedes encontrarla aquí: [Curso Primeros Pasos con Laravel 5.1](https://styde.net/curso-primeros-pasos-con-laravel-5/).
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Con este curso aprenderás sobre los conceptos más importantes del framework más popular de PHP, tales como: rutas, migraciones, vistas, controladores, pruebas con PHPUnit, entre muchos otros. Conocimientos con los cuales podrás desarrollar aplicaciones de PHP modernas de una manera rápida y profesional.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Lecciones
 
-## Learning Laravel
+### Primeros pasos con Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+1. [Instalación de Composer y Laravel](https://styde.net/instalacion-de-composer-y-laravel/) - 10:35
+2. [Introducción a Laravel](https://styde.net/introduccion-a-laravel/) - 8:05
+3. [Rutas](https://styde.net/rutas-con-laravel/) - 9:00
+4. [Pruebas](https://styde.net/pruebas-con-laravel/) - 14:10
+5. [Controladores](https://styde.net/controladores-en-laravel/) - 11:40
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1400 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Vistas
 
-## Laravel Sponsors
+6. [Vistas](https://styde.net/vistas-en-laravel/) - 9:25
+7. [Plantillas con Blade](https://styde.net/blade-el-sistema-de-plantillas-de-laravel/) - 12:20
+8. [Layouts con Blade](https://styde.net/layouts-con-blade/) - 20:00
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### Manejo de Bases de datos con Laravel 
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
+9. [Introducción al manejo de base de datos](https://styde.net/introduccion-a-las-bases-de-datos-y-migraciones-con-laravel/) - 12:55
+10. [Modificar tablas ya existentes usando migraciones](https://styde.net/modificar-tablas-ya-existentes-con-las-migraciones-de-laravel/) - 11:30
+11. [Creación y asociación de tablas con el uso de migraciones y claves foráneas](https://styde.net/crear-y-asociar-tablas-usando-las-migraciones-de-laravel-con-claves-foraneas/) - 18:45
+12. [Inserción de datos con el uso de Seeders](https://styde.net/insercion-de-datos-con-los-seeders-de-laravel/) - 15:05
+13. [Constructor de consultas SQL](https://styde.net/constructor-de-consultas-sql-de-laravel/) - 15:50
+14. [Introducción a Eloquent ORM](https://styde.net/introduccion-a-eloquent-el-orm-del-framework-laravel/) - 14:30
+15. [Usando Eloquent ORM de forma interactiva con Tinker](https://styde.net/usando-eloquent-orm-de-forma-interactiva-con-tinker/) - 13:45
+16. [Manejo de atributos en Eloquent ORM](https://styde.net/manejo-de-atributos-en-eloquent-orm-solucion-a-massassignmentexception/) - 10:40
+17. [Relaciones con Eloquent ORM](https://styde.net/relaciones-con-el-orm-eloquent/) - 11:45
+18. [Model Factories](https://styde.net/generar-registros-con-model-factories-en-laravel/) - 10:20
 
-## Contributing
+### Módulo CRUD de usuarios
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+19. [Introducción](https://styde.net/modulo-de-usuarios-con-laravel/) - 2:05
+20. [Listado](https://styde.net/listado-dinamico-de-usuarios-con-laravel-modulo-crud/) - 12:35
+21. [Configuración y uso de base de datos con Laravel y PHPUnit](https://styde.net/configuracion-y-uso-de-base-de-datos-en-el-entorno-de-pruebas-automatizadas-con-laravel-y-phpunit/) - 16:40
+22. [Detalles o perfil](https://styde.net/detalles-o-perfil-de-usuario-con-laravel-modulo-crud/) - 7:00
+23. [Generar URLs](https://styde.net/urls-en-laravel/) - 14:25
+24. [Manejo de errores 404](https://styde.net/manejo-de-errores-404-en-laravel/) - 7:55
+25. [Enlace de modelos a rutas](https://styde.net/enlace-de-modelos-a-rutas-en-laravel/) - 2:20
 
-## Security Vulnerabilities
+### En Styde.net también puedes aprender a:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- Programar mejor con el [Curso de programación orientada a objetos con PHP](https://styde.net/curso-de-programacion-orientada-a-objetos-con-php/)
+- Crear páginas web interactivas en el [Curso de Vue 2](https://styde.net/curso-de-vue-2/)
+- Manejar mejor tu terminal con el [Curso básico de terminal](https://styde.net/curso-basico-de-terminal/)
+- Controlar las versiones de tu proyecto con el [Curso de Git y GitHub](https://styde.net/curso-de-git/)
+- Escribir CSS de manera eficiente con el [Curso de Sass a fondo](https://styde.net/curso-de-sass/)
+- Y [mucho más](https://styde.net/cursos/)
 
-## License
-
-The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+© 2016 - 2017 [Styde.net](https://styde.net/)
