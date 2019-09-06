@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\User;
+use App\Role;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\Rule;
@@ -54,10 +55,12 @@ class UserController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => md5($data['password'])
-        ]);
+        ])->roles()->attach(Role::where('name', 'user')->first());
 
         return redirect()->route('users.index');
     }
+
+
 
     public function edit(User $user)
     {

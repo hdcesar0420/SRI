@@ -66,6 +66,6 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => md5($data['password']),
-        ]);
+        ])->roles()->attach(Role::where('name', 'user')->first());;
     }
 }

@@ -1,5 +1,6 @@
 <?php
 
+use App\Role;
 use App\User;
 use App\Profession;
 use Illuminate\Database\Seeder;
@@ -18,18 +19,30 @@ class UserSeeder extends Seeder
 
         $professionId = Profession::where('title', 'Desarrollador back-end')->value('id');
 
-        factory(User::class)->create([
-            'name' => 'Duilio Palacios',
-            'email' => 'duilio@styde.net',
-            'password' => bcrypt('laravel'),
+        $roleAId= Role::where('name', 'admin')->value('id');
+        $roleUId= Role::where('name', 'user')->value('id');
+
+        $admin=factory(User::class)->create([
+            'name' => 'hdcesar ',
+            'email' => 'hdcesar@dev.com',
+            'password' => md5('123456'),
             'profession_id' => $professionId,
             'is_admin' => true,
+            
         ]);
+        $admin->roles()->attach($roleAId);
 
-        factory(User::class)->create([
+      
+
+        $user=factory(User::class)->create([
             'profession_id' => $professionId
         ]);
+        $user->roles()->attach($roleUId);
 
-        factory(User::class, 48)->create();
+        $user=factory(User::class)->create([
+            'profession_id' => $professionId
+        ]);
+        $user->roles()->attach($roleUId);
+        
     }
 }
