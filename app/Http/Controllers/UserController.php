@@ -9,6 +9,13 @@ use Illuminate\Validation\Rule;
 
 class UserController extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
+
     public function index()
     {
         //$users = DB::table('users')->get();
@@ -46,7 +53,7 @@ class UserController extends Controller
         User::create([
             'name' => $data['name'],
             'email' => $data['email'],
-            'password' => bcrypt($data['password'])
+            'password' => md5($data['password'])
         ]);
 
         return redirect()->route('users.index');
@@ -66,7 +73,7 @@ class UserController extends Controller
         ]);
 
         if ($data['password'] != null) {
-            $data['password'] = bcrypt($data['password']);
+            $data['password'] = md5($data['password']);
         } else {
             unset($data['password']);
         }

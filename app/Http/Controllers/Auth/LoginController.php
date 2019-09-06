@@ -27,6 +27,24 @@ class LoginController extends Controller
      */
     protected $redirectTo = '/home';
 
+
+    public function username() //funcion para cambiar a nombre de usario el login
+    {
+        return 'name'; 
+    }
+
+
+  /*  public function redirectPath()
+    {
+        if (method_exists($this, 'redirectTo')) {
+            return $this->redirectTo();
+        }
+
+       // Auth::User->
+
+        return property_exists($this, 'redirectTo') ? $this->redirectTo : '/home';
+    }//modificar el redireccionamiento*/
+
     /**
      * Create a new controller instance.
      *
@@ -36,4 +54,5 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+
 }

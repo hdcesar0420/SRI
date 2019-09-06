@@ -47,4 +47,8 @@ class User extends Authenticatable
     {
         return $this->is_admin;
     }
+    public function getAuthPassword()
+    {
+        return $this->password;//nombre de campo personalizado Password
+    }
 }
